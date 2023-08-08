@@ -1,0 +1,27 @@
+.form-wrapper {
+    position: relative;
+    text-align: left;
+}
+
+.form-wrapper label {
+    display: block;
+    width: 100%;
+    padding: 10px 10px 0 0;
+}
+
+.form-wrapper input {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid rgb(214, 209, 209);
+}
+
+.form-wrapper input:focus {
+    outline-color: rgb(68, 140, 248);
+}
+
+.asterisk {
+    color: red;
+}
